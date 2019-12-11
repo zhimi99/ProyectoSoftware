@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+    </head>
+
+<body>
+
+        <style>
+
+               .menuCSS3 ul {
+                    display: flex;
+                    padding: 0px;
+                    margin: 0;
+                    list-style: none;
+                    width: auto;
+                    float: left;
+                  
+                }
+                .menuCSS3 a {
+                    display: block;
+                    padding: 2em;
+                    background-color: darkseagreen;
+                    text-decoration: none;
+                    color: #191C26;
+                    font-family: monospace;
+                    font-size: 18px;
+                    padding-bottom: 20px;
+                    padding-top: 20px;
+                    width: 213px;
+                    
+                }
+                .menuCSS3 a:hover {
+                    background-color: forestgreen;
+                    
+                    
+                }
+                .menuCSS3 ul li ul {
+                    display: none;
+                    
+                }
+                .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+                    display: block;
+                    
+                }
+
+         </style> 
+
+
+    <nav class="menuCSS3">
+		<ul>
+			<li><a>MANTENIMIENTO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+           <li><a href="index.php">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../proyecto/avatar.png" alt="Avatar" width="16px">&nbsp;&nbsp;Usuarios</a></li>
+			<li><a href="#"><img src="../proyecto/libro.jpeg" alt="Avatar" width="16px">&nbsp;&nbsp;Productos</a>
+				<ul>
+					<li><a href="#">Comedia</a></li>
+					<li><a href="#">Romance</a></li>
+                    <li><a href="#">Aventura</a></li>
+                    <li><a href="#">Ficción</a></li>
+				</ul>
+
+			</li>
+            <li><a href="#"><img src="../proyecto/reporte.jpg" alt="Avatar" width="16px">&nbsp;&nbsp;Reportes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="#">&nbsp;&nbsp;Salir</a></li>
+		</ul>
+	</nav>
+    
+    
+
+</body>
+</html>
